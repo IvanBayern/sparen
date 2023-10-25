@@ -182,3 +182,20 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
 .color_yellow{
     color: rgb(254, 233, 68);
 }
+
+
+
+.hero__text {
+    font-size: 14px;
+    line-height: 1.25;
+    color: #a4d0ff;
+
+    @include mq(tab) {
+        font-size: 16px;
+        line-height: 1.45;
+
+        @include mq(desk) {
+            line-height: 1.25;
+        }
+    }
+}

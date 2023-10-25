@@ -993,6 +993,15 @@ input::placeholder {
     width: 69px;
   }
 }
+.phone {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.margin1 {
+  padding-bottom: 10px;
+}
+
 /* HERO */
 .hero__right-side {
   flex-grow: 1;
@@ -1153,6 +1162,23 @@ input::placeholder {
   color: rgb(254, 233, 68);
 }
 
+.hero__text {
+  font-size: 14px;
+  line-height: 1.25;
+  color: #a4d0ff;
+}
+@media screen and (min-width: 768px) {
+  .hero__text {
+    font-size: 16px;
+    line-height: 1.45;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1200px) {
+  .hero__text {
+    line-height: 1.25;
+  }
+}
+
 /* PRICES */
 .overlay {
   max-width: 1600px;
@@ -1296,7 +1322,7 @@ input::placeholder {
 @media screen and (min-width: 1200px) {
   .overlay {
     max-width: 1600px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg-service.png);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg-service.jpg);
   }
   .services-table-wrapper {
     display: flex;
