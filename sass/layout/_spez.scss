@@ -186,6 +186,16 @@
             margin-bottom: 16px;
         }
     }
+
+.contacts__time2 {
+        position: relative;
+        // border-bottom: 1px solid var(--color-linear);
+        margin-bottom: 10px;
+
+        @media screen and (min-width: 768px) {
+            margin-bottom: 16px;
+        }
+    }
 .contacts__time1::before {
 
     position: absolute;
@@ -477,6 +487,11 @@ button {
     }
 }
 
+
+.sprache:hover,
+.sprache:hover,:focus {
+    color: var(--color-accent);
+}
 
 
 
