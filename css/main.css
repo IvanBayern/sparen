@@ -959,7 +959,7 @@ input::placeholder {
   }
   .logo {
     margin-right: 50px;
-    width: 69px;
+    width: 50px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -985,7 +985,7 @@ input::placeholder {
   .logo {
     margin-right: 70px;
     margin-left: 20px;
-    width: 70px;
+    width: 50px;
   }
 }
 @media screen and (max-width: 767px) {
