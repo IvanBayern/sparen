@@ -993,8 +993,9 @@ input::placeholder {
     display: flex;
   }
   .logo {
-    margin-right: 50px;
-    width: 69px;
+    margin-right: 120px;
+    width: 40px;
+    margin-left: 20px;
   }
 }
 .phone {
